@@ -320,7 +320,7 @@ function App() {
                     fullWidth
                     error={!!departureError}
                     helperText={departureError}
-                    inputProps={{
+                    InputProps={{
                       style: {
                         minHeight: 56, // Match MUI default TextField height
                         fontSize: 16,
