@@ -238,6 +238,8 @@ function App() {
                               {...getInputProps({
                                 label: 'Enter your exact address',
                                 placeholder: 'Enter your exact address',
+                                autoComplete: 'street-address',
+                                onBlur: (e: React.FocusEvent<HTMLInputElement>) => setExactAddress(e.target.value),
                               })}
                               error={!!addressError}
                               helperText={addressError}
