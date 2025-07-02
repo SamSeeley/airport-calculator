@@ -43,6 +43,13 @@ const AIRPORTS = {
   'FRA': { lat: 50.0379, lng: 8.5622, name: 'Frankfurt am Main, Germany' },
   'BKK': { lat: 13.6900, lng: 100.7501, name: 'Bangkok Suvarnabhumi, Thailand' },
   // Add more airports as needed
+  'PVD': { lat: 41.7267, lng: -71.4336, name: 'T. F. Green Airport (Providence, RI)' },
+  'BDL': { lat: 41.9389, lng: -72.6832, name: 'Bradley International (Hartford, CT)' },
+  'HVN': { lat: 41.2637, lng: -72.8868, name: 'Tweed New Haven Airport (New Haven, CT)' },
+  'FLL': { lat: 26.0726, lng: -80.1527, name: 'Fort Lauderdale-Hollywood International (Ft Lauderdale, FL)' },
+  'PIE': { lat: 27.9102, lng: -82.6874, name: 'St. Pete–Clearwater International (Saint Pete, FL)' },
+  'BCT': { lat: 26.3785, lng: -80.1077, name: 'Boca Raton Airport (Boca Raton, FL)' },
+  'SAN': { lat: 32.7338, lng: -117.1933, name: 'San Diego International (San Diego, CA)' },
 };
 
 // List of international airport abbreviations
